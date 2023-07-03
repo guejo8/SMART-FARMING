@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+  }
+  body {
+    
+    background-image: linear-gradient(to bottom right, #fef4da, #ffe8bb, #ffd997, #ffcc6b, #ffbe3d, #fda6b8, #f883d7); /* Fondo degradado para navegadores modernos */
+  }
+  /* ----------------------------BARRA MENU-------------------------------------- */
+  .section_menu {
+    width: 100%;
+    height: 8rem;
+    /* border: 1px solid black; */
+    text-align: center;
+  }
+  .titulo_principal {
+    margin: 3rem auto 1rem auto;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #1d1d1d;
+  }
+  .barra_menu {
+    display: flex;
+    justify-content: center;
+  }
+  .items {
+    list-style: none;
+    padding: 0.6rem 1.2rem;
+    margin: 0 1rem;
+    border-radius: 5px;
+    color: #918f8f;
+  }
+  .items:hover {
+    background:#ff6f61;
+    color: #fff;
+  }
+  
+  /* ----------------------------SECCION BANNER-------------------------------------- */
+  .banner {
+    
+    background-image: url(./imagenes/banner.jpg);
+    width: 100%;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cuadro_banner {
+    width: 35%;
+    height: 40%;
+    text-align: center;
+  }
+  h2 {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: bolder;
+    margin: 1rem auto;
+  }
+  .parrafo_banner {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+  }
+  
+  
+  
+  /* ----------------------------SECCION PRODUCTOS------------------------------------- */
+  .titulo_productos {
+    text-align: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: xx-large;
+    color: #1d1d1d;
+  }
+  .cuadros-productos {
+    text-align: center;
+    align-items: center;
+  }
+
+  .titulo_parrafo {
+    text-align: justify;
+    margin: 1rem;
+    font-size: large;
+    font-weight: bolder;
+  }
+  .cuadros-productos p {
+    text-align: justify;
+    margin: 1rem;
+  }
+  
+  .cuadros-productos img {
+    max-width: 100%;
+    height: rem;
+  }
+  .contenedor-productos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    margin: 4rem 8rem;
+  }
+  
+  
+  
+   
+  /* --------------------------------------SECCION FORMULARIO-------------------------------------- */
+  .formulario {
+    width: 100%;
+    height: auto;
+    /* background-color: #918f8f; */
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+  }
+  .formulario_caja {
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid #242424; */
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: .5rem;
+    /* border-radius: 50px; */
+    background: #ffffff;
+    box-shadow:  1.25rem 1.25rem 3.75rem #d9d9d9,
+                 -1.25rem -1.25rem 3.75rem #ffffff
+  }
+  .titulo_formulario{
+    font-size: 1.8rem;
+    padding-bottom: 3rem;
+    text-align: center;
+  }
+  label,input{
+    display: block;
+  }
+  label{
+    padding-bottom: .2rem;
+  }
+  input{
+    border:transparent;
+    padding: .5rem;
+    border-bottom: 1px solid rgba(145, 143, 143, 0.3);
+  }
+  input:focus,#comentario:focus{
+    outline-color: rgba(145, 143, 143, 0.3);
+  }
+  #comentario{
+    resize: none;
+    width: 100%;
+    border:transparent;
+    border-bottom: 1px solid rgba(145, 143, 143, 0.3);
+  }
+  .contenedor_boton{
+    display: flex;
+    justify-content: center;
+  }
+  .boton-formulario {
+    border-radius: .32rem;
+    color: white;
+    background-color: rgb(240, 16, 83);
+    padding: 0.6rem 2rem;
+    cursor: pointer;
+    font-size: 0.8rem;
+    border: none;
+  }
+  
+  /* ----------------------------SECCION ABOUT-------------------------------------- */
+  .description-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 4rem;
+  }
+  
+  /* -------------------FOOTER COPYRIGHT--------------------------- */
+  .copy_datos {
+    /* width: 20%; */
+    height: 4rem;
+    /* background-color: #333333; */
+    background-color:  #ff6f61;
+    text-align: center;
+    /* border: 1px solid rgb(110, 110, 110); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

@@ -1,11 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/0c0deb0eb7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+    <title>Agricultura inteligente</title>
+  </head>
+  <body>
     
-</body>
+    <!-- ----------------- SECCION MENU ------------- -->
+    <section class="section_menu">
+      <h1 class="titulo_principal"><a class="titulo_principal"; href="">SMART FARMING</a> </h1>
+      <nav class="barra">
+        <ul class="barra_menu">
+          
+          <li class="items">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="items">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="items">
+            <a class="nav-link" href="Contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+    
+    <!-- ----------------- SECCION BANNER ------------- -->
+    <section class="banner">
+      <div class="cuadro_banner">
+        <h2>Natura</h2>
+        <p class="parrafo_banner">Tecnologia sostenible</p>
+      </div>
+    </section>
+    
+
+     <!-- ----------------------------------- FORMULARIO ---------------------------------- -->
+    
+     <div class="titulo_contacto">
+      <h1 id="title">Formulario de contacto</h1>
+        
+        <p id="description">Si quieres más información, puedes ponerte en contacto con nosotros a través de este formulario:</p>
+        </div>
+    
+    
+     <section class="formulario">
+      <div class="formulario_caja">
+        <form action="" method="get">
+            <h5 class="titulo_formulario">Contacto</h5>
+    
+            <label for="nombreusuario">Nombre</label>
+            <input type="text" name="nombreusuario" id="nombreusuario" required />
+    
+            <br />
+            <div>
+              <label for="apellidos">Apellidos</label>
+              <input type="text" name="apellidos" id="apellidos" />
+            </div>
+            <br />
+            <div>
+              <label for="correoelectronico">Email</label>
+              <input
+                type="email"
+                name="correoelectronico"
+                id="correoelectronico"
+                value=""
+                placeholder="info@gmail.com"
+                required
+              />
+            </div>
+            <br />
+            <div>
+              <label for="telefono">Telefono</label>
+              <input type="text" name="telefono" id="telefono" required />
+            </div>
+            <br />
+            <div>
+              <label for="comentario">Comentario</label>
+              <textarea name="comentario" id="comentario" required></textarea>
+            </div>
+            <br />
+            <div>
+              <input type="checkbox" id="checkbox" onchange="habilitarBoton()">
+              <label for="checkbox">Acepto los términos y condiciones</label>
+            </div>
+            <br />
+            <div class="contenedor_boton">
+              <button class="boton-formulario" type="submit">Enviar</button>
+            </div>
+            
+            
+        </form>
+        
+      </div>
+      
+    </section>
+
+    <!-- ----------------------------------- FOOTER ---------------------------------- -->
+    <footer>
+      <div class="copy_datos">
+          <p class="parrafo_copy">© Untitled. All rights reserved</p> 
+        </div>
+    </footer>
+  </body>
 </html>

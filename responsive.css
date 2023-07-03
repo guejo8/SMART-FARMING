@@ -1,0 +1,82 @@
+/* --------------Responsive tablet --------------   -768*/
+@media screen and (min-width: 481px) and (max-width: 835px) {
+    .contenedor-productos {
+      gap: 1rem;
+      margin: 4rem 2rem;
+    }
+    
+    .formulario_caja {
+      width: 50%;
+    }
+    .descripcion_parrafo {
+      text-align: justify;
+    }
+    .copyright {
+      margin-top: 2rem;
+    }
+  }
+  /*-------------- mobile------------ */
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    .section_menu {
+      height: auto;
+    }
+    .barra {
+      margin-bottom: 0;
+    }
+    .barra_menu {
+      flex-direction: column;
+    }
+    .items {
+      padding: 1.5rem 0;
+      border-bottom: 1px solid rgba(145, 143, 143, 0.3);
+    }
+    .banner {
+      background-size: cover;
+    }
+    .cuadro_banner {
+      width: 90%;
+      height: 35%;
+    }
+    .descripcion {
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+    }
+    .seccion_botones {
+      flex-direction: column;
+      margin: 2rem auto;
+    }
+    .titulo_productos {
+      padding-top: 2.5rem;
+    }
+    .contenedor-productos {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 1.5rem;
+      margin: 0;
+    }
+    .cuadros-productos p {
+      margin: 1rem 3rem;
+    }
+    
+  
+    /* ------------------ formulario ---------- */
+    .formulario_caja {
+      width: 75%;
+      margin-top: 9rem;
+    }
+  
+    /* ------------------ footer ---------- */
+    
+    
+    }
+    /* ------------------ COPY ---------- */
+    /* .copy_datos {
+      width: 100%;
+    }
+    .copyright {
+      flex-direction: column;
+      height: auto;
+    }
+  } */
