@@ -8,11 +8,14 @@
     .formulario_caja {
       width: 50%;
     }
-    .descripcion_parrafo {
+    /* .descripcion_parrafo {
       text-align: justify;
-    }
+    } */
     .copyright {
       margin-top: 2rem;
+    }
+    h2 {
+      font-size: 3rem;
     }
   }
   /*-------------- mobile------------ */
@@ -66,17 +69,12 @@
       width: 75%;
       margin-top: 9rem;
     }
-  
-    /* ------------------ footer ---------- */
-    
-    
+    /******************about***************/
+    h2 {
+      font-size: 1.5rem;
     }
-    /* ------------------ COPY ---------- */
-    /* .copy_datos {
-      width: 100%;
+    .welcome{
+      margin:2rem;
     }
-    .copyright {
-      flex-direction: column;
-      height: auto;
-    }
-  } */
+
+  }

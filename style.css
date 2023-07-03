@@ -95,7 +95,7 @@
   
   .cuadros-productos img {
     max-width: 100%;
-    height: rem;
+    height: 14rem;
   }
   .contenedor-productos {
     display: grid;
@@ -170,14 +170,15 @@
   }
   
   /* ----------------------------SECCION ABOUT-------------------------------------- */
-  .description-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 4rem;
-  }
   
+  #natura {
+    margin:4rem;
+    text-align: center;
+  }
+  .welcome {
+    margin:5rem;
+
+  }
   /* -------------------FOOTER COPYRIGHT--------------------------- */
   .copy_datos {
     /* width: 20%; */
