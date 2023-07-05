@@ -1,3 +1,6 @@
+
+//-----------------------DESHABILITAR EL BOTON FORMULARIO CONTACTO-------//
+
 var checkbox = document.getElementById('checkbox');
 checkbox.addEventListener('change', habilitarBoton);
 
