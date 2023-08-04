@@ -1,5 +1,3 @@
-Nombre
-Juana Carmen Guerrero
 
 Sitio WEB
 Temática:Agricultura inteligente
